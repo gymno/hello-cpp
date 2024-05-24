@@ -6,7 +6,7 @@ void MyTest () {
     int* aaa = new int;
     *aaa = 120;
     return;
-
+    *aaa += 2;
     printf("This is a deadcode\n");
 }
 
