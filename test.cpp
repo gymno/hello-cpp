@@ -5,6 +5,9 @@
 void MyTest () {
     int* aaa = new int;
     *aaa = 120;
+    return;
+
+    printf("This is a deadcode\n");
 }
 
 int main(int argc, char* argv[]) {
